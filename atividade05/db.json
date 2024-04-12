@@ -1,0 +1,26 @@
+{
+  "turma": [
+    {
+      "id": "7110",
+      "name": "turmar 4568",
+      "sigla": {
+        "id": "1",
+        "sigla": "1° DSN"
+      }
+    }
+  ],
+  "sigla": [
+    {
+      "id": 1,
+      "sigla": "1° DSN"
+    },
+    {
+      "id": 2,
+      "sigla": "2° DSN"
+    },
+    {
+      "id": 3,
+      "sigla": "3° DSN"
+    }
+  ]
+}
