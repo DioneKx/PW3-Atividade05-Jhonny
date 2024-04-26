@@ -5,6 +5,7 @@ export function Select({
   name,
   options,
   handlerOnChange,
+  value
 }) {
 
   const opt = options.map((e) => {
@@ -14,7 +15,7 @@ export function Select({
     <div className="form_control">
       <label htmlFor={name}>{text}</label>
       <select name={name} id={name} onChange={handlerOnChange}>
-        <option>...{text}</option>
+        <option value={0}>...{text}</option>
         {opt}
       </select>
     </div>

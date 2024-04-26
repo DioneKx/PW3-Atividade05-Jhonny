@@ -1,0 +1,42 @@
+.team_card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1em;
+    border: 1px solid #7A7A7A;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0.5%;
+}
+
+.team_card h4{
+    background-color: #222;
+    color: #FFBB33;
+    padding: 0.4em;
+    margin-bottom: 1.3em;
+    font-size: 1.3em;
+}
+
+.team_card p{
+    color: #000;
+    margin-bottom: 1em;
+}
+
+.team_card p span{
+    font-weight: bold;
+}
+
+.sigla_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sigla_text span{
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #CCC;
+    margin-right: 5px;
+}

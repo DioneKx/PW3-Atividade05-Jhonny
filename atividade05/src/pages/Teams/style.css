@@ -1,0 +1,24 @@
+.teams_container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4em;
+    background-color: grey;
+    border-radius: 10;
+}
+
+.team_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.teams_container h1 {
+    font-size: 2.5em;
+    margin-bottom: .5em;
+}
