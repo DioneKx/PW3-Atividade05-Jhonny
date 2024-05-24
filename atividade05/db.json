@@ -1,27 +1,11 @@
 {
   "turmas": [
     {
-      "id": "7110",
-      "name": "turma 4568",
-      "sigla": {
-        "id": "1",
-        "name": "1° DSN"
-      }
-    },
-    {
       "id": "8b1d",
       "name": "Turma 01234",
       "sigla": {
         "id": "3",
         "name": "3° DSN"
-      }
-    },
-    {
-      "id": "dcd9",
-      "name": "Turma XXX",
-      "sigla": {
-        "id": "2",
-        "name": "2° DSN"
       }
     },
     {
@@ -39,27 +23,19 @@
         "name": "1° DSN"
       },
       "name": "Turma ZZZ"
-    },
-    {
-      "id": "f6d1",
-      "sigla": {
-        "id": "1",
-        "name": "1° DSN"
-      },
-      "name": "turma test"
     }
   ],
   "sigla": [
     {
-      "id": 1,
+      "id": "1",
       "sigla": "1° DSN"
     },
     {
-      "id": 2,
+      "id": "2",
       "sigla": "2° DSN"
     },
     {
-      "id": 3,
+      "id": "3",
       "sigla": "3° DSN"
     }
   ]

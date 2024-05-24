@@ -7,6 +7,7 @@ import { Container } from './components/Container';
 import { Teams } from './pages/Teams';
 import { NewTeam } from './pages/NewTeam';
 import { Home } from './pages/Home';
+import { EditTeam } from './pages/EditTeam';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
               <Route index element={<Home />} />
               <Route path='/teams' element={<Teams />} />
               <Route path='/newteam' element={<NewTeam />} />
+              <Route path='/editTeam/:id' element={<EditTeam />} />
             </Route>
           </Routes>
         </Container>
